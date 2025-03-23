@@ -1,6 +1,6 @@
 # DaddyStood - AI Trading App
 
-![DaddyStood Logo](https://via.placeholder.com/150)
+![DaddyStood](https://via.placeholder.com/150)
 
 ### "Wall Street Experience, Zero Risk Reality"
 
