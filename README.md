@@ -2,7 +2,7 @@
 
 ![DaddyStood](https://via.placeholder.com/150)
 
-### "Wall Street Experience, Zero Risk Reality"
+### "Wall Street Experience, Zero Risk Reality, Guide at Every Step"
 
 DaddyStood is a paper trading simulator that provides real-time market experience without financial risk. Practice trading strategies, learn market mechanics, and build your investment skills using our virtual USDaddyDollar currency.
 
