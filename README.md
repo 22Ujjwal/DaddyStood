@@ -1,5 +1,7 @@
 # DaddyStood - AI Trading App
 
+## ALERT! project in Progress Some major files are not pushes to open-source.
+
 ![DaddyStood](https://via.placeholder.com/150)
 
 ### "Wall Street Experience, Zero Risk Reality, Guide at Every Step"
