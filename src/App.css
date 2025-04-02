@@ -1,0 +1,120 @@
+:root {
+  /* Core colors */
+  --primary-green: #00C805;
+  --primary-red: #FF5000;
+  --background: #FFFFFF;
+  --surface: #F5F8FA;
+  --text-primary: #171718;
+  --text-secondary: #6F7780;
+  --border: #E3E9ED;
+  
+  /* Chart colors */
+  --chart-green: rgba(0, 200, 5, 0.1);
+  --chart-red: rgba(255, 80, 0, 0.1);
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+
+body {
+  margin: 0;
+  font-family: "Capsule Sans Text", -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--surface);
+  color: var(--text-primary);
+}
+
+.app {
+  min-height: 100vh;
+  background-color: var(--surface);
+  color: var(--text-primary);
+}
+
+.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
+
+.MuiPaper-root {
+  background-color: white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.04) !important;
+  border: 1px solid var(--border);
+}
+
+.MuiButton-containedPrimary {
+  background-color: var(--primary-green) !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.card {
+  background: var(--background);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+.price-up, .price-down {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+}
+
+.price-up {
+  color: var(--primary-green);
+}
+
+.price-down {
+  color: var(--primary-red);
+}
+
+.trend-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-weight: 500;
+}
+
+.asset-list-item {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.2s;
+}
+
+.asset-list-item:hover {
+  background-color: var(--surface);
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.chart-tooltip {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.chart-tooltip-label {
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.chart-tooltip-value {
+  font-weight: 500;
+} 
