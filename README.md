@@ -1,6 +1,6 @@
 # DaddyStood - AI Trading App
 
-## ALERT! project in Progress Some major files are not pushes to open-source.
+## Update: Will be ready to deploy very soon, some major files are not pushed to open-source for reason.
 
 ![DaddyStood](https://via.placeholder.com/150)
 
