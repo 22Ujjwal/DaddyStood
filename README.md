@@ -1,4 +1,4 @@
-# DaddyStood - AI Trading App
+# DaddyStood - AI Trading App [revamping to Investinhood]
 
 ## Update: Will be ready to deploy very soon, some major files are not pushed to open-source for reason.
 
